@@ -1,9 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
-
-
-
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -54,7 +50,6 @@ body {
 
 .menuItem {
   list-style: none;
-
 }
 
 .menu a {
@@ -67,9 +62,8 @@ body {
   height: 26px;
   color: #5e607a;
 }
-.menu a:hover{
-color: #df1f0d;
-
+.menu a:hover {
+  color: #df1f0d;
 }
 .burger {
   display: none;
@@ -170,19 +164,17 @@ color: #df1f0d;
   width: 185px;
   height: 48px;
   background-color: #f15d51;
-    text-align: center;
-    transition: 0.1s;
-    margin-top: 30px;
- 
+  text-align: center;
+  transition: 0.1s;
+  margin-top: 30px;
 }
-.readMoreButton:hover{
+.readMoreButton:hover {
   background-color: rgb(255, 238, 0);
   color: #f15d51;
-
 }
 .box4 {
   background: #00001a;
-   text-align: center;
+  text-align: center;
   width: 350px;
   height: 511px;
   gap: 12px;
@@ -201,7 +193,7 @@ color: #df1f0d;
   padding: 10px;
 }
 
-hr{
+hr {
   margin-top: 30px;
   margin-bottom: 30px;
 }
@@ -240,8 +232,8 @@ h2 {
   line-height: 24px;
   text-align: left;
   color: #fffdfa;
-margin-top: 15px;
-margin-bottom: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 img {
@@ -323,7 +315,7 @@ img {
   }
 
   .article {
-    width: 100%; /* Ensure articles take full width */
+    width: 100%;
   }
 
   .article1 {
@@ -362,6 +354,4 @@ img {
     background-color: white;
     font-size: 30px;
   }
-
-
 }

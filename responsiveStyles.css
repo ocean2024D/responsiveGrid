@@ -305,21 +305,21 @@ img {
   .nested2 {
     grid-area: nested2;
     grid-template-areas:
-      "article1 article1 article1 article1 article1 article1"
-      "article2 article2 article2 article2 article2 article2"
-      "article3 article3 article3 article3 article3 article3"
-      "article4 article4 article4 article4 article4 article4"
-      "article5 article5 article5 article5 article5 article5"
-      "article6 article6 article6 article6 article6 article6";
-    grid-template-columns: 1fr;
+      "article1 article1 article1 article2 article2 article2"
+      "article3 article3 article3 article4 article4 article4"
+      "article5 article5 article5 article6 article6 article6";
+     
+    grid-template-columns:1fr 1fr;
   }
 
-  .article {
-    width: 100%;
-  }
+.articles{
+  display: flex;
+  justify-content: space-between;
+}
 
   .article1 {
     grid-area: article1;
+  align-items: left;
   }
 
   .article2 {
